@@ -8,8 +8,10 @@ const navCss = `
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 200;
   }
   .nav-logo {
@@ -27,7 +29,7 @@ const navCss = `
     text-decoration: none;
     font: 400 .88rem/1 'DM Sans', sans-serif;
     padding: .38rem .85rem;
-    border-radius: 6px;
+    border-radius: 999px;
     background: none; border: none;
     cursor: pointer;
     transition: color .18s, background .18s;
