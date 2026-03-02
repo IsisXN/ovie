@@ -4,7 +4,9 @@ const css = `
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap');
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root { --navy: #1a2244; --navy-dk: #151c38; --sky: #d4e5f5; --white: #fff; --gray: #f0f2f5; --border: #d8dde8; --muted: #6b7a90; }
-  body { font-family: 'DM Sans', sans-serif; background: #111; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+
+  /* IMPORTANT: don't make the entire app body a centered flex container */
+  body { font-family: 'DM Sans', sans-serif; background: #111; min-height: 100vh; }
 
   .page-bg {
     width: 100vw; min-height: 100vh;
