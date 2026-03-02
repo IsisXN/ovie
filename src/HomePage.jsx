@@ -501,7 +501,7 @@ export default function HomePage() {
       <section className="how" id="how">
         <h2>How it works</h2>
         <p>
-          Designed to make managing your cycle simple, organized, and private. You can log period dates in your personal calendar, keep a consistent history that stays saved to your account, and set reminders for contraception. When you want to coordinate plans, you can invite trusted people to a shared calendar that shows only your period dates — never your personal notes or entries. Your information stays protected, accessible across devices, and always under your control, while still giving you the option to make planning with others easier and more considerate.
+          Designed to make managing your cycle simple, organized, and private. You can log period dates in your personal calendar, keep a consistent history that stays saved to your account, and set reminders for contraception. When you want to coordinate plans, you can invite trusted people to a shared calendar that shows only your period dates, never your personal notes or entries. Your information stays protected, accessible across devices, and always under your control, while still giving you the option to make planning with others easier and more considerate.
         </p>
       </section>
 
