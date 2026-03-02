@@ -404,21 +404,6 @@ export default function HomePage() {
     <>
       <style>{css}</style>
 
-      {/* NAV */}
-      <nav className="nav">
-        <a href="#" className="nav-logo">
-          <UterusNav />
-          OVIE
-        </a>
-        <ul className="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#how">How it Works</a></li>
-          <li><span className="nav-sep">|</span></li>
-          <li><a href="#" className="nav-register">Register</a></li>
-          <li><a href="#">Log In</a></li>
-        </ul>
-      </nav>
-
       {/* HERO */}
       <section className="hero">
         <div className="hero-left">
